@@ -1,3 +1,18 @@
+# Beamforming-LLM: Semantic Recall in Multi-Speaker Environments
+
+This project implements a real-time spatial audio recall system that combines automatic speech recognition (Whisper), semantic search (FAISS), and GPT-4o-mini summarization to extract and summarize relevant content from multi-speaker conversations.
+
+Developed as part of a collaborative research project at Columbia University with Swetha Ramesh and Vishal Chaudhari, the system simulates complex acoustic environments using beamforming filters and provides a natural language interface for semantic audio retrieval.
+
+## Features
+- Real-time directional audio separation using microphone array and Pyroomacoustics
+- Whisper-based ASR for transcription of overlapping conversations
+- FAISS + RAG pipeline for semantic search and GPT-4o-mini summarization
+- Streamlit demo interface and Raspberry Pi deployment simulation
+
+
+
+
 # ELENE6908_group5
 Repo for the Embedded AI project 
 
